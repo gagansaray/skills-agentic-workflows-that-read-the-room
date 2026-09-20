@@ -24,6 +24,7 @@ network:
     - github.com
     - awesome-copilot.github.com
 engine: copilot
+model: gpt-4o
 safe-outputs:
   create-pull-request:
     title-prefix: "[Mona] "
