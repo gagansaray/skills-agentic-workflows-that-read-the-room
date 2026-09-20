@@ -22,6 +22,7 @@ network:
     - github
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 engine: copilot
 safe-outputs:
   create-pull-request:
@@ -46,6 +47,7 @@ Review the current product news and repository context, then update the GitHub i
 2. Read external public guidance using the web-fetch tool, not shell or local file reads:
    - `https://github.blog/latest/`
    - `https://github.blog/changelog/`
+   - `https://awesome-copilot.github.com/workflows/`
 3. Read repository guidance or reference files using GitHub repository API tools instead of terminal, CLI, or sandboxed commands when you need project-specific context.
 4. Review the existing page at `site/content/github-info.md` and update it to reflect the most relevant, current GitHub developments.
 5. Keep the content factual, concise, and aligned with the repository's existing tone.
